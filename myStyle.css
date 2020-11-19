@@ -1,0 +1,351 @@
+/* Import the CSS file with: 
+   <link rel="stylesheet" href="myStyle.css">   */
+
+/* Tester Code */
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.tags{
+    overflow: hidden;
+    background-color: orange;
+}
+
+.tags a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tags a:hover{
+    background-color: white;
+    color: orange;
+}
+
+/*Planner Classes*/
+
+.plan {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.plan table{
+    width: 100%;
+    border: 1px orange;
+    background-color: #ECCE77;
+}
+
+.plan tr{
+    vertical-align: text-top;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.plan td{
+    vertical-align: text-top;
+    text-align: left;
+}
+
+.plan p{
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 10px;
+    text-align: center;
+}
+
+.plan button{
+    text-align: center;
+    border: none;
+    font-size: 24px;
+    background-color: #ECCE77;
+}
+
+.plan img{
+    align: center;
+    width: 50%;
+    height: 50%:
+}
+
+.button1{
+    text-align: center;
+    border: none;
+    font-size: 24px;
+    background-color: #ECCE77;
+    width: 100%;
+    height: 70%;
+}
+
+/*Grocery List Classes*/
+.grocer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grocer ul{
+    font-size: 25px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grocer li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.addNewGrocer button{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50%;
+    background-color: rgba(107, 209, 6, 0.651);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+}
+
+.addNewGrocer button:hover {
+    border: solid black;
+}
+
+.addNewGrocer input[type=text]{
+    border: solid orange 2px;
+    font-size: 20px;
+}
+
+.addNewGrocer input[type=submit]{
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#textBox{
+    margin-left: 50%;
+    display: none;
+}
+
+#print{
+    float: right;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+/* Favorites page class*/
+
+.container {
+    width: 375px;
+    height: 820px;
+    display: inline-grid;
+    background-color: bisque;
+}
+
+.containerTitle {
+    font-family: "Raleway";
+    font-size: 2.3em;
+    float: right;
+    padding-right: 2.5em;
+    padding-top: .5em;
+}
+
+.card1 {
+    width: 320px;
+    height: 100px;
+    background-color: lightyellow;
+    border-radius: 1em;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+    margin: auto;
+    margin-top: -10em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card1View {
+    width: 320px;
+    height: 300px;
+    background-color: lightyellow;
+    border-radius: 1em;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+    margin: auto;
+    margin-top: -22em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card2 {
+    width: 320px;
+    height: 100px;
+    background-color: lightyellow;
+    border-radius: 1em;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+    margin: auto;
+    margin-top: -10.5em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card2View {
+    width: 320px;
+    height: 300px;
+    background-color: lightyellow;
+    border-radius: 1em;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+    margin: auto;
+    margin-top: -22em;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+}
+
+.card3 {
+    width: 320px;
+    height: 100px;
+    background-color: lightyellow;
+    border-radius: 1em;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+    margin: auto;
+    margin-top: -10.5em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.recipe{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10em;
+}
+
+.filler {
+    font-family: "Raleway";
+    font-size: 1.2em;
+    float: right;
+    text-align: left;
+    padding-right: .5em;
+    padding-left: .5em;
+    padding-top: .5em;
+}
+
+.recipeTitle {
+    font-family: "Raleway";
+    font-size: 1.2em;
+    float: right;
+    padding-right: .5em;
+    padding-top: .5em;
+}
+
+.recipeDesc {
+    font-family: "Raleway";
+    font-size: 0.8em;
+    float: right;
+    text-align: right;
+    padding-right: .5em;
+    width: 60%;
+    margin-top: -.5em;
+}
+
+.foodPic {
+    width: 7em;
+    height: 7em;
+    position: absolute;  
+}
+
+#view {
+    width: 10em;
+    position: absolute;
+    bottom: 4%;
+    right: 11%;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-color: lightgray;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+}
+
+#view:hover {
+    box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.2);
+}
+#new {
+    position: absolute;
+    bottom: 6%;
+    left: 45%;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-color: lightyellow;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+}
+#f2new {
+    position: absolute;
+    bottom: -15%;
+    left: 45%;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-color: lightyellow;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+}
+
+#new:hover {
+    box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.2);
+}
+
+#cardGoBack {
+    width: 10em;
+    position: absolute;
+    bottom: 5%;
+    right: 11%;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-color: lightgray;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+}
+
+#goBack {
+    width: 8em;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-color: lightgray;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+}
+
+#addRecipe {
+    width: 8em;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    border: 1px solid transparent;
+    border-radius: 1em;
+    background-color: lightgray;
+    box-shadow: .2em .2em .2em rgba(68, 68, 68, 0.6);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }

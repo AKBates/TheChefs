@@ -1,0 +1,67 @@
+<DOCTYPE html>
+    <link rel="stylesheet" href="myStyle.css">
+    <meta name = "viewport" contents="width=device-width, initialscale-1">
+   <!-- <h1>Meal Preppin'</h1-->
+ 
+
+
+        <div class="tags">
+            <a href="planner.html">Meal Planner</a>
+            <a href = "explore.html">Explore</a>
+            <a href = "favorites.html">Favorites</a>
+            <a href="grocery_list.html">Grocery List</a>
+            <a href = "preferences.html">Preferences</a>
+        </div>
+
+
+        <div class="grocer">
+            <button id="print" onclick="window.print()">Print</button>
+            <ul id ="list"> Grocery List
+                <li>Soy Sauce</li>
+                <li>Shrimp</li>
+                <li>Scallions</li>
+                <li>Ginger</li>
+                <li>Rice</li>
+                <li>Pepper</li>
+                <li>Chicken</li>
+                <li>Olive Oil</li>
+                <li>Garlic</li>
+                <li>Pasta</li>
+                <li>Lemon</li>
+                <li>Parmesan</li>
+                <li>Parsely</li>
+            </ul>
+        </div>
+
+        <div class="addNewGrocer">
+            <button onclick="myFunction()">+</button>
+                <div id="textBox">
+                    <input type="text" id="fitem">
+                    <input type="submit" value="Add New" id = "add">
+                </div>
+        </div>
+
+
+        <script>
+            document.getElementById("add").onclick = function(){
+                var node = document.createElement("Li");
+                var text = document.getElementById("fitem").value;
+                var textnode = document.createTextNode(text);
+                node.appendChild(textnode);
+                document.getElementById("list").appendChild(node);
+                document.getElementById("fitem").value = "";
+            }//function
+
+            function myFunction() {
+                var x = document.getElementById("textBox");
+                if(x.style.display == "none"){
+                    x.style.display = "block";
+                }//if
+                else{
+                    x.style.display = "none";
+                }//else
+            }//myFunction
+        </script>
+
+</html>
+
